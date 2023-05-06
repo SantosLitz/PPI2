@@ -1,0 +1,80 @@
+:root {
+    /* project colors */
+    --color-primary: #010a13;
+    --color-secondary: #001223;
+    --color-secondary-light: #002140;
+    --color-tertiary: #c9aa71;
+
+    /* neutral colors */
+    --black: #000000;
+    --white: #fff;
+}
+
+body {
+    overflow-y: visible;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 84px;
+    gap: 32px;
+}
+
+.page-title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.page-title-container h1 {
+    text-transform: capitalize;
+}
+
+.page-title-container p {
+    max-width: 50%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.concepts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+summary {
+    margin-bottom: 16px;
+}
+
+footer {
+    background-color: var(--color-secondary);
+}
+
+.footer-container {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-container nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-container nav ul li a {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.footer-container nav ul li a:hover {
+    border-bottom: 2px solid var(--color-tertiary);
+}

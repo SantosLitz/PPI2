@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href="../../assets/lol-logo.svg"
+            type="image/SVG"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>lolwiki</title>
+        <link rel="stylesheet" href="../../styles/global.css" />
+        <link rel="stylesheet" href="../../styles/your-opinion.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <img src="../../assets/lol-logo.svg" alt="logo do lol" />
+                <div class="list">
+                    <ul>
+                        <li><a href="../../">Home</a></li>
+                        <li><a href="../know-lol/">Conheça</a></li>
+                        <li><a href="../how-to-play/">Como jogar</a></li>
+                        <li><a href="#">Sua opinião</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="page-title-container">
+                    <h1>Qual a sua opinião sobre o jogo?</h1>
+
+                    <p>Conte-nos o que você achou do lolzinho pelo que viu</p>
+                </div>
+
+                <form>
+                    <div class="form-content">
+                        <div class="input-container">
+                            <label for="name">Digite o seu nome:</label>
+                            <input type="text" id="name" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="email">Digite o seu e-mail:</label>
+                            <input type="email" id="email" required />
+                        </div>
+
+                        <div class="input-container">
+                            <label for="lane"
+                                >Qual rota você costuma jogar mais?</label
+                            >
+                            <select name="rotas" id="lame">
+                                <option value="default">
+                                    Selecione uma das rotas
+                                </option>
+                                <option value="top">TopLane</option>
+                                <option value="jng">Jungle</option>
+                                <option value="mid">Midlane</option>
+                                <option value="bot">Botlane/ADC</option>
+                                <option value="sup">Suporte</option>
+                            </select>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="champion"
+                                >Quais são os seus 3 principais campeões?</label
+                            >
+                            <div class="champion-container">
+                                <div>
+                                    <label for="champion-one">Campeão 1:</label>
+                                    <input
+                                        type="text"
+                                        id="champion-one"
+                                        required
+                                    />
+                                </div>
+                                <div>
+                                    <label for="champion-two">Campeão 2:</label>
+                                    <input
+                                        type="text"
+                                        id="champion-two"
+                                        required
+                                    />
+                                </div>
+                                <div>
+                                    <label for="champion-three"
+                                        >Campeão 3:</label
+                                    >
+                                    <input
+                                        type="text"
+                                        id="champion-three"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="testify"
+                                >Conte-nos a sua exeperiência com o jogo</label
+                            >
+                            <textarea
+                                id="testify"
+                                cols="30"
+                                rows="10"
+                                placeholder="Digite a sua opinião aqui (min. 80 caracteres)"
+                            ></textarea>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="rate"
+                                >Como você avalia o jogo, em geral?</label
+                            >
+                            <div id="rate" class="stars-container">
+                                <img
+                                    src="../../assets/simple-star.svg"
+                                    alt="ícone de estrela"
+                                    id="star-one"
+                                />
+                                <img
+                                    src="../../assets/simple-star.svg"
+                                    alt="ícone de estrela"
+                                    id="star-two"
+                                />
+                                <img
+                                    src="../../assets/simple-star.svg"
+                                    alt="ícone de estrela"
+                                    id="star-three"
+                                />
+                                <img
+                                    src="../../assets/simple-star.svg"
+                                    alt="ícone de estrela"
+                                    id="star-four"
+                                />
+                                <img
+                                    src="../../assets/simple-star.svg"
+                                    alt="ícone de estrela"
+                                    id="star-five"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="input-container submit-btn">
+                            <input type="submit" value="ENVIAR RESPOSTAS" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <img
+                    src="../../assets/lol-logo.svg"
+                    alt="logo do league of legends"
+                />
+                <nav>
+                    <ul>
+                        <li><a href="../../">Home</a></li>
+                        <li><a href="#">Conheça</a></li>
+                        <li><a href="../how-to-play/">Como jogar</a></li>
+                        <li><a href="../your-opinion/">Sua Opinião</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <script src="../../script.js"></script>
+    </body>
+</html>
