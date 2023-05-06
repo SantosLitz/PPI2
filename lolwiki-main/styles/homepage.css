@@ -49,5 +49,6 @@ main {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url("../assets/1288056.jpg");
+    background-image: url("../assets/Bilgewater_The_Harrowing.webp");
+    background-size: cover;
 }

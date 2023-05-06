@@ -12,6 +12,9 @@
 
 body {
     overflow-y: visible;
+    background-image: url("../assets/876868.jpg");
+    background-size: cover;
+    background-position: top;
 }
 
 .container {

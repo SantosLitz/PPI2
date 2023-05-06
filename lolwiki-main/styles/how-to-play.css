@@ -12,6 +12,8 @@
 
 body {
     overflow-y: visible;
+    background-image: url("../assets/back-alley-bar-piltover-zaun-runeterra-4k-wallpaper-uhdpaper.com-409@1@i.jpg");
+    background-size: cover;
 }
 
 .container {
